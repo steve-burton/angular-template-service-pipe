@@ -6,11 +6,13 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
 import { routing } from './app.routing';
+import { TemplateDetailComponent } from './template-detail/template-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SplashComponent
+    SplashComponent,
+    TemplateDetailComponent
   ],
   imports: [
     BrowserModule,

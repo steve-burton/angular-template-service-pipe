@@ -1,3 +1,5 @@
-<p>
-  splash works!
-</p>
+<div *ngFor="let template of templates" (click)="goToPostDetail(template)" class="panel panel-default">
+  <div class="panel-heading">
+    <h3><em>{{template.id}}</em></h3>
+  </div>
+</div>
